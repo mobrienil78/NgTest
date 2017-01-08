@@ -183,6 +183,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Content Include="js\spec\index.html" />
+    <Content Include="js\spec\spec\appSpec.js" />
+    <Content Include="js\src\app.js" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -196,9 +199,19 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\angular-messages.js" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jasmine-2.5.2\boot.js" />
+    <Content Include="Scripts\jasmine-2.5.2\console.js" />
+    <Content Include="Scripts\jasmine-2.5.2\jasmine-html.js" />
+    <Content Include="Scripts\jasmine-2.5.2\jasmine.css" />
+    <Content Include="Scripts\jasmine-2.5.2\jasmine.js" />
+    <Content Include="Scripts\jasmine-2.5.2\jasmine_favicon.png" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
